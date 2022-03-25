@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příprava na praktickou prověrku
+        <link rel="stylesheet" href="css/style.css">
+
+    </title>
+</head>
+<style>
+    table,
+    thead,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    li {
+        text-align: left;
+    }
+</style>
+
+<body>
+    <ul>
+        <li>
+            <p><a href="#text">Textové úpravy</a></p>
+        </li>
+        <li>
+            <p><a href="#tabulka">Tabulka</a></p>
+        </li>
+    </ul>
+    <h1 id="text">Textové úpravy</h1>
+    <h2>Adresy používané na internetu</h2>
+    <p>IP adresa (anglicky IP address) je v informatice číslo, které jednoznačně identifikuje síťové rozhraní v
+        počítačové síti, která používá IP protokol. V současné době je nejrozšířenější IPv4, která používá 32bitové IP
+        adresy, které jsou zapisovány dekadicky po jednotlivých oktetech (tj. po osmicích bitů), například 192.168.0.2.
+        Z důvodu nedostatku adres je IPv4 postupně nahrazován protokolem IPv6, který používá 128bitové IP adresy zapsané
+        hexadecimálně, například 2001:db8:0:1234:0:567:8:1.</p>
+    <h1>Seznam významových termínů a zkratek</h1>
+    <h2>HTML</h2>
+    <p>Hypertext Markup Language (zkratka HTML) je v informatice název značkovacího jazyka používaného pro tvorbu
+        webových stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v
+        systému World Wide Web, který umožňuje publikaci dokumentů na Internetu.</p>
+    <h2>HTTP</h2>
+    <p>HTTP (Hypertext Transfer Protocol) je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos
+        hypertextových dokumentů ve formátu HTML, XML, i jiných typů souborů. Používá obvykle port TCP/80, verze 1.1
+        protokolu je definována v RFC 2616. Společně s elektronickou poštou je HTTP nejvíce používaným protokolem, který
+        se zasloužil o obrovský rozmach internetu v posledních letech.</p>
+    <h2>Validátor</h2>
+    <p>Validátor je počítačový program používaný ke kontrole platnosti nebo syntaktické správnosti fragmentu kódu nebo
+        dokumentu. Tento termín se běžně používá v kontextu ověřování dokumentů HTML,[1][2] CSS a XML, jako jsou kanály
+        RSS, i když jej lze použít pro jakýkoli definovaný formát nebo jazyk.</p>
+    <h2>Server</h2>
+    <p>Server je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program,
+        který tyto služby realizuje. V unixových systémech je případně označován jako démon (anglicky daemon), v
+        Microsoft Windows potom jako služba (anglicky service).</p>
+    <h1 id="tabulka">Tabulka</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Nečíslovaný seznam</th>
+                <td colspan="2">Prvky stránky</td>
+                <td rowspan="2">obrázek</td>
+            </tr>
+            <tr>
+                <th>Značky</th>
+                <th>Entity</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">
+                    <ul>
+                        <li>IP adresa</li>
+                        <li>Jmenná adresa</li>
+                        <li>URL</li>
+                    </ul>
+                </th>
+                <td>H<sub>2</sub>O</td>
+                <td>&</td>
+                <th colspan="2" rowspan="2"><img src="../proverka/lyzar.png" alt="obrazek"></th>
+            </tr>
+            <tr>
+                <th>c = a<sup>2</sup> + b<sup>2</sup></th>
+                <th>©</th>
+            </tr>
+
+        </tbody>
+        <tbody>
+            <tr>
+                <th>Odkaz</th>
+                <th colspan="3"><a href="https://www.w3.org/">www.w3c.org</a>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+
+        <hr />
+        <p>© Jantošík Šimon, IT1, SŠPU Opava</p>
+    </footer>
+</body>
+
+</html>
